@@ -18,12 +18,27 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-const express_1 = __importDefault(require("express"));
-const sampleController = __importStar(require("../controllers/sample"));
-const router = express_1.default.Router();
-router.get('/ping', sampleController.sampleHealthCheck);
-module.exports = router;
-//# sourceMappingURL=sample.js.map
+Object.defineProperty(exports, "__esModule", { value: true });
+const mongoose = __importStar(require("mongoose"));
+const Schema = mongoose.Schema;
+const bookSchema = new Schema({
+    isbn: {
+        type: String,
+        required: true
+    },
+    title: {
+        type: String,
+        required: true
+    },
+    author_name: {
+        type: String,
+        required: true
+    },
+    category_name: {
+        type: String,
+        required: true
+    }
+});
+const Book = mongoose.model('books', bookSchema);
+exports.default = Book;
+//# sourceMappingURL=book.js.map

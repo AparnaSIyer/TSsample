@@ -15,3 +15,4 @@ const config = {
     server: SERVER,
 };
 exports.default = config;
+//# sourceMappingURL=config.js.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"BookService.js","sourceRoot":"","sources":["../../source/services/BookService.ts"],"names":[],"mappings":";;AAGA,MAAqB,WAAW;IAAhC;QAEW,eAAU,GAAC,CAAC,GAAW,EAAE,QAAa,EAAC,EAAE;QAGhD,CAAC,CAAA;QAEM,gBAAW,GAAC,GAAE,EAAE;QAEvB,CAAC,CAAA;QAEM,eAAU,GAAG,GAAG,EAAE;QAEzB,CAAC,CAAA;QAEM,eAAU,GAAG,GAAG,EAAE;QAEzB,CAAC,CAAA;IAGL,CAAC;CAAA;AApBD,8BAoBC"}

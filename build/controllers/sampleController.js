@@ -13,4 +13,4 @@ const sampleHealthCheck = (req, res, next) => {
     });
 };
 exports.sampleHealthCheck = sampleHealthCheck;
-//# sourceMappingURL=sample.js.map
+//# sourceMappingURL=sampleController.js.map

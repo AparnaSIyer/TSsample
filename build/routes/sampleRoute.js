@@ -22,8 +22,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 const express_1 = __importDefault(require("express"));
-const sampleController = __importStar(require("../controllers/sample"));
+const bookController = __importStar(require("../controllers/BookController"));
 const router = express_1.default.Router();
-router.get('/ping', sampleController.sampleHealthCheck);
+router.get('/getallbooks', bookController.);
 module.exports = router;
-//# sourceMappingURL=sample.js.map
+//# sourceMappingURL=sampleRoute.js.map
