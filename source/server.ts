@@ -44,7 +44,6 @@ class App{
     // Handling error
     // router.use((req, res, next) => {
     //     const error = new Error('not found');
-
     //     return res.status(404).json({
     //         message: error.message
     //     });
